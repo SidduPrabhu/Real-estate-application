@@ -5,3 +5,4 @@ plotly == 5.19.0
 matplotlib
 wordcloud
 category_encoders
+seaborn
