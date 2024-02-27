@@ -1,0 +1,13 @@
+prefix=C:/Real Esatate project webapp/streamlit/Library
+exec_prefix=C:/Real Esatate project webapp/streamlit/Library
+libdir=C:/Real Esatate project webapp/streamlit/Library/lib
+sharedlibdir=C:/Real Esatate project webapp/streamlit/Library/lib
+includedir=C:/Real Esatate project webapp/streamlit/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
